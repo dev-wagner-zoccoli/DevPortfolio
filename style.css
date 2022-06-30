@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: PageFont;
+  src: url(./Assets/Font/KdamThmorPro-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url(/Assets/Images/hc_bg_4k_comp.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  font-family: PageFont;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+#logo {
+  /* position: sticky; */
+  top: 10px;
+  min-height: 85px;
+  max-height: 85px;
+  padding-top: 55px;
+  background-image: url(./Assets/Images/wz_nobg.png);
+  background-repeat: no-repeat;
+  background-size: 75px;
+  background-position: center;
+}
+
+#intro {
+  width: 60%;
+  margin: auto;
+  padding-bottom: 150px;
+
+  overflow-x: hidden;
+  overflow-y: scroll, hidden;
+  perspective: 1px;
+  perspective-origin: 0 0;
+  /* border: white solid 1px; */
+}
+
+h1.intro {
+  margin-top: 0px;
+  text-align: center;
+  font-size: 75px;
+  text-shadow: #f605fa 2px 2px 15px;
+}
+
+p.intro {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: #f605fa 2px 2px 15px;
+}
+
+.skillscontainer {
+  display: flex;
+  height: fit-content;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 2%;
+  text-align: center;
+  text-shadow: #01D7CF 2px 2px 15px;
+  /* border: white solid 1px; */
+}
+
+.cards {
+  height: fit-content;
+  width: 48%;
+  margin-right: 2%;
+  margin-left: 2%;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 20px;
+  background-color: #c2c2c238;
+  border-radius: 3px;
+  box-shadow: #f605fa 0px 2px 10px;
+}
+
+#aboutme {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 50px;
+  padding-top: 150px;
+  text-shadow: #f605fa 2px 2px 15px;
+}
+
+#container {
+  display: flex;
+  height: fit-content;
+  width: 45%;
+  margin: auto;
+  margin-bottom: 200px;
+  /* padding-top: 10px; */
+  /* padding-bottom: 10px; */
+  /* background-color: #c2c2c238;
+  border-radius: 5px;
+  box-shadow: #f605fa 0px 0px 15px;
+  border: white solid 1px; */
+  text-shadow: #01D7CF 2px 2px 15px;
+}
+
+#minilogo {
+  float: left;
+  height: 50px;
+  width: 50px;
+  transform: translatey(-12%);
+  background-image: url(./Assets/Images/wz_nobg.png);
+  background-size: contain;
+
+}
+
+#profile {
+  height: 100%;
+  width: 66%;
+  margin-right: 10px;
+  padding: 20px;
+  align-items: center;
+  text-align: justify;
+  background-color: #c2c2c238;
+  border-radius: 3px;
+  box-shadow: #f605fa 0px 2px 10px;
+
+  /* border: white solid 1px; */
+
+}
+
+.pic {
+  position: relative;
+  width: 33%;
+  margin-left: 10px;
+  background-image: url(./Assets/Images/eu_go02.png);
+  background-size: cover;
+  background-color: #c2c2c238;
+  /* border-style: solid; */
+  border-radius: 5px;
+  /* border-width: 3px;
+  border-color: #01D7CF; */
+  box-shadow: #f605fa 0px 2px 10px;
+}
+
+#contitle {
+  text-shadow: #f605fa 2px 2px 15px;
+  padding-bottom: 30px;
+}
+
+#contact {
+  height: fit-content;
+  width: 45%;
+  margin: auto;
+  padding-bottom: 150px;
+  /* border: white solid 1px; */
+}
+
+.buttons {
+  width: 40%;
+  margin: auto;
+  margin-bottom: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #01D7CF;
+  border-radius: 10px;
+  box-shadow: #f605fa 0px 0px 15px;
+}
+
+.buttons:hover {
+  background-color: #00fff7;
+}
+
+footer {
+  height: fit-content;
+  margin: auto;
+  padding: 5px;
+  background-color: #3a3a3a6c;
+  text-shadow: #00fff7 0px 2px 10px;
+  box-shadow: #f605fa 0px 3px 10px;
+}
+
+#flogo {
+  height: 40px;
+  margin: auto;
+  background-image: url(./Assets/Images/wz_nobg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
