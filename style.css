@@ -47,10 +47,6 @@ a:visited {
   margin: auto;
   padding-bottom: 150px;
 
-  overflow-x: hidden;
-  overflow-y: scroll, hidden;
-  perspective: 1px;
-  perspective-origin: 0 0;
   /* border: white solid 1px; */
 }
 
@@ -77,6 +73,7 @@ p.intro {
   margin-bottom: 2%;
   text-align: center;
   text-shadow: #01D7CF 2px 2px 15px;
+
   /* border: white solid 1px; */
 }
 
@@ -87,6 +84,7 @@ p.intro {
   margin-left: 2%;
   padding-left: 35px;
   padding-right: 35px;
+  padding-top: 15px;
   padding-bottom: 20px;
   background-color: #c2c2c238;
   border-radius: 3px;
@@ -99,6 +97,8 @@ p.intro {
   margin-bottom: 50px;
   padding-top: 150px;
   text-shadow: #f605fa 2px 2px 15px;
+
+  /* border: white solid 1px; */
 }
 
 #container {
@@ -106,14 +106,10 @@ p.intro {
   height: fit-content;
   width: 45%;
   margin: auto;
-  margin-bottom: 200px;
-  /* padding-top: 10px; */
-  /* padding-bottom: 10px; */
-  /* background-color: #c2c2c238;
-  border-radius: 5px;
-  box-shadow: #f605fa 0px 0px 15px;
-  border: white solid 1px; */
+  margin-bottom: 2%;
   text-shadow: #01D7CF 2px 2px 15px;
+
+  /* border: white solid 1px; */
 }
 
 #minilogo {
@@ -123,7 +119,6 @@ p.intro {
   transform: translatey(-12%);
   background-image: url(./Assets/Images/wz_nobg.png);
   background-size: contain;
-
 }
 
 #profile {
@@ -134,11 +129,8 @@ p.intro {
   align-items: center;
   text-align: justify;
   background-color: #c2c2c238;
-  border-radius: 3px;
+  border-radius: 5px;
   box-shadow: #f605fa 0px 2px 10px;
-
-  /* border: white solid 1px; */
-
 }
 
 .pic {
@@ -148,30 +140,35 @@ p.intro {
   background-image: url(./Assets/Images/eu_go02.png);
   background-size: cover;
   background-color: #c2c2c238;
-  /* border-style: solid; */
   border-radius: 5px;
-  /* border-width: 3px;
-  border-color: #01D7CF; */
   box-shadow: #f605fa 0px 2px 10px;
 }
 
 #contitle {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 50px;
+  padding-top: 150px;
+  margin-bottom: 50px;
   text-shadow: #f605fa 2px 2px 15px;
-  padding-bottom: 30px;
+
+  /* border: white solid 1px; */
 }
 
 #contact {
-  height: fit-content;
+  /* height: fit-content; */
+  height: 500px;
   width: 45%;
   margin: auto;
-  padding-bottom: 150px;
+  margin-bottom: 6%;
+
   /* border: white solid 1px; */
 }
 
 .buttons {
   width: 40%;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 2%;
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: #01D7CF;
@@ -189,12 +186,13 @@ footer {
   padding: 5px;
   background-color: #3a3a3a6c;
   text-shadow: #00fff7 0px 2px 10px;
-  box-shadow: #f605fa 0px 3px 10px;
+  box-shadow: #f605fa 0px 3px 15px;
 }
 
 #flogo {
   height: 40px;
   margin: auto;
+  margin-bottom: 5px;
   background-image: url(./Assets/Images/wz_nobg.png);
   background-size: contain;
   background-repeat: no-repeat;
