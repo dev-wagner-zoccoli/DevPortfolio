@@ -1,13 +1,11 @@
-/* ATENÇÃO!! 
-
-1. AS BORDAS BRANCAS SÃO MERAMENTE GUIAS 
-USADAS DURANTE A FORMATAÇÃO DO LAYOUT DOS ELEMENTOS 
-DA PÁG. POR ISSO ESTÃO COMO 'COMENTÁRIOS', SENDO 
-ATIVADAS APENAS QUANDO NECESSÁRIO, PARA FACILITAR 
-A VISUALIZAÇÃO. 
-
-2. OUTRAS LINHAS COMO COMENTÁRIO SÃO PLACEHOLDERS 
-PARA ALTERAÇÕES FUTURAS. */
+/* ATENÇÃO!!
+  1. AS BORDAS BRANCAS SÃO MERAMENTE GUIAS USADAS
+  DURANTE A FORMATAÇÃO DO LAYOUT DOS ELEMENTOS
+  DA PÁG. POR ISSO ESTÃO COMO "COMENTÁRIOS",SENDO
+  ATIVADAS APENAS QUANDO NECESSÁRIO, PARA
+  FACILITAR A VISUALIZAÇÃO.
+  2. OUTRAS LINHAS COMO COMENTÁRIO SÃO PLACEHOLDERS
+  PARA ALTERAÇÕES FUTURAS. */
 
 * {
   margin: 0;
@@ -61,31 +59,11 @@ a:visited {
   /* border: white solid 1px; */
 }
 
-@media screen and (max-width: 770px) {
-  #intro {
-    width: 95%;
-    padding-bottom: 100px;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  #intro {
-    width: 80%;
-    padding-bottom: 100px;
-  }
-}
-
 h1 {
   margin-top: 0px;
   text-align: center;
   font-size: 75px;
   text-shadow: #f605fa 2px 2px 15px;
-}
-
-@media screen and (max-width: 770px) {
-  h1 {
-    font-size: 60px;
-  }
 }
 
 .introp {
@@ -96,12 +74,6 @@ h1 {
   text-shadow: #f605fa 2px 2px 15px;
 }
 
-@media screen and (max-width: 770px) {
-  .introp {
-    font-size: 25px;
-  }
-}
-
 .skillscontainer {
   display: flex;
   height: fit-content;
@@ -109,29 +81,9 @@ h1 {
   margin: auto;
   margin-bottom: 2%;
   text-align: center;
-  text-shadow: #01D7CF 2px 2px 15px;
+  text-shadow: #01d7cf 2px 2px 15px;
 
   /* border: white solid 1px; */
-}
-
-@media screen and (max-width: 770px) {
-  .skillscontainer {
-    display: block;
-    width: 95%;
-    margin-bottom: 0;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .skillscontainer {
-    width: 80%;
-  }
-}
-
-@media screen and (max-width: 1600px) {
-  .skillscontainer {
-    width: 80%;
-  }
 }
 
 .cards {
@@ -148,16 +100,6 @@ h1 {
   box-shadow: #f605fa 0px 2px 10px;
 }
 
-@media screen and (max-width: 770px) {
-  .cards {
-    width: 80%;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: auto;
-    margin-bottom: 6%;
-  }
-}
-
 #aboutme {
   width: 60%;
   margin: auto;
@@ -168,55 +110,15 @@ h1 {
   /* border: white solid 1px; */
 }
 
-@media screen and (max-width: 770px) {
-  #aboutme {
-    width: 95%;
-    padding-top: 100px;
-    margin-bottom: 25px;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  #aboutme {
-    width: 80%;
-    padding-top: 100px;
-    margin-bottom: 25px;
-  }
-}
-
 #container {
   display: flex;
   height: fit-content;
   width: 50%;
   margin: auto;
   margin-bottom: 2%;
-  text-shadow: #01D7CF 2px 2px 15px;
+  text-shadow: #01d7cf 2px 2px 15px;
 
   /* border: white solid 1px; */
-}
-
-@media screen and (max-width: 770px) {
-  #container {
-    display: block;
-    width: 95%;
-    margin: auto;
-    margin-bottom: 6%;
-
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  #container {
-    display: block;
-    width: 80%;
-    margin-bottom: 4%;
-  }
-}
-
-@media screen and (max-width: 1600px) {
-  #container {
-    width: 80%;
-  }
 }
 
 #minilogo {
@@ -226,15 +128,6 @@ h1 {
   transform: translatey(-12%);
   background-image: url(./Assets/Images/wz_nobg.png);
   background-size: contain;
-}
-
-@media screen and (max-width: 770px) {
-  #minilogo {
-    float: none;
-    margin: 0;
-    padding: 0;
-    transform: translateY(0);
-  }
 }
 
 #profile {
@@ -249,23 +142,6 @@ h1 {
   /* border: white solid 1px; */
 }
 
-@media screen and (max-width: 770px) {
-  #profile {
-    width: 100%;
-    margin: auto;
-    margin-right: 0;
-    margin-bottom: 6%;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  #profile {
-    width: 80%;
-    margin: auto;
-    margin-bottom: 4%;
-  }
-}
-
 #pic {
   width: 33%;
   margin-left: 10px;
@@ -277,107 +153,58 @@ h1 {
   /* border: white solid 1px; */
 }
 
-@media screen and (max-width: 315px) {
-  #pic {
-    display: none;
-  }
+#portfolio {
+  width: 60%;
+  margin: auto;
+  /* margin-bottom: 50px; */
+
+  /* border: white solid 1px; */
 }
 
-@media screen and (max-width: 770px) {
-  #pic {
-    height: 300px;
-    width: 250px;
-    margin: auto;
-    margin-left: 0;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  #pic {
-    height: 400px;
-    /* width: 40%; */
-    margin: auto;
-  }
-}
-
-#contitle {
+.sec-title {
   width: 60%;
   margin: auto;
   margin-bottom: 50px;
   padding-top: 150px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   text-shadow: #f605fa 2px 2px 15px;
 
   /* border: white solid 1px; */
 }
 
-@media screen and (max-width: 770px) {
-  #contitle {
-    width: 95%;
-    padding-top: 100px;
-    margin-bottom: 6%;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  #contitle {
-    width: 90%;
-    padding-top: 100px;
-    margin-bottom: 4%;
-  }
-}
-
 #contact {
   height: fit-content;
-  width: 45%;
+  width: 60%;
   margin: auto;
   margin-bottom: 6%;
 
   /* border: white solid 1px; */
 }
 
-@media screen and (max-width: 770px) {
-  #contact {
-    width: 95%;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  #contact {
-    width: 90%;
-  }
-}
-
-.buttons {
-  width: 35%;
+.buttons,
+.send {
+  width: 30%;
   margin: auto;
   margin-bottom: 6%;
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #01D7CF;
+  background-color: #01d7cf;
   border-radius: 10px;
   box-shadow: #f605fa 0px 0px 15px;
+
+  /* border: white solid 1px; */
 }
 
-@media screen and (max-width: 770px) {
-  .buttons {
-    width: 70%;
-  }
+.send {
+  width: 15%;
+  font-size: 14px;
+  color: white;
+  border: none;
+  transform: translatex(-217%);
 }
 
-@media screen and (max-width: 1000px) {
-  .buttons {
-    width: 45%;
-  }
-}
-
-@media screen and (max-width: 1600px) {
-  .buttons {
-    width: 50%;
-  }
-}
-
-.buttons:hover {
+.buttons:hover,
+.send:hover {
   background-color: #00fff7;
 }
 
@@ -392,13 +219,6 @@ h1 {
   box-shadow: #f605fa 0px 2px 10px;
 
   /* border: white solid 1px; */
-}
-
-@media screen and (max-width: px) {
-  #formcontainer {
-    width: 100%;
-    margin-bottom: 15%;
-  }
 }
 
 input,
@@ -431,14 +251,6 @@ textarea {
   border-radius: 2px;
 }
 
-.send {
-  width: 25%;
-  font-size: 14px;
-  color: white;
-  border: none;
-  /* transform: translatex(-117%); */
-}
-
 .forminfo {
   font-size: 12px;
   text-shadow: #00fff7 2px 2px 15px;
@@ -462,4 +274,181 @@ footer {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+@media screen and (max-width: 319px) {
+  #pic {
+    display: none;
+  }
+
+  .buttons {
+    width: 60%;
+  }
+
+  .send {
+    width: 25%;
+    transform: translatex(0)
+  }
+}
+
+@media screen and (max-width: 770px) {
+
+  #intro {
+    width: 95%;
+    padding-bottom: 100px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  .introp {
+    font-size: 25px;
+  }
+
+  .skillscontainer {
+    display: block;
+    width: 95%;
+    margin-bottom: 0;
+  }
+
+  .cards {
+    width: 80%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    margin-bottom: 6%;
+  }
+
+  #aboutme {
+    width: 95%;
+    padding-top: 100px;
+    margin-bottom: 25px;
+  }
+
+  #minilogo {
+    float: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #container {
+    display: block;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 6%;
+  }
+
+  #profile {
+    width: 100%;
+    margin: auto;
+    margin-right: 0;
+    margin-bottom: 6%;
+  }
+
+  #pic {
+    height: 300px;
+    width: 250px;
+    margin: auto;
+    margin-left: 0;
+  }
+
+  #portfolio {
+    width: 95%;
+  }
+
+  .sec-title {
+    width: 95%;
+    padding-top: 100px;
+  }
+
+  #contact {
+    width: 95%;
+  }
+
+  .buttons {
+    width: 50%;
+  }
+
+  .send {
+    width: 15%;
+    transform: translatex(0)
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+  #intro {
+    width: 80%;
+    padding-bottom: 100px;
+  }
+
+  .skillscontainer {
+    width: 90%;
+  }
+
+  .cards {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  #aboutme {
+    width: 80%;
+    padding-top: 100px;
+    margin-bottom: 25px;
+  }
+
+  #container {
+    display: block;
+    width: 80%;
+    margin-bottom: 4%;
+  }
+
+  #profile {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 4%;
+  }
+
+  #pic {
+    height: 400px;
+    margin: auto;
+  }
+
+  #portfolio {
+    width: 90%;
+  }
+
+  .sec-title {
+    width: 90%;
+    padding-top: 100px;
+  }
+
+  #contact {
+    width: 90%;
+  }
+
+  .buttons {
+    width: 45%;
+  }
+
+  .send {
+    width: 20%;
+    transform: translatex(-153%)
+  }
+}
+
+@media screen and (max-width: 1600px) {
+
+  .skillscontainer {
+    width: 80%;
+  }
+
+  #container {
+    width: 80%;
+  }
+
+  .buttons {
+    width: 35%;
+  }
 }
