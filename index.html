@@ -2,27 +2,32 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Desenvolvimento Web Front End" />
+    <meta name="keywords" content="Desenvolvimento de sites, HTML, CSS, JavaScript, Wordpress, Web Design" />
+    <meta name="author" content="Wagner Zoccoli" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-
-    <title>WZ Web Development</title>
+    <script src="https://kit.fontawesome.com/553e354dca.js" crossorigin="anonymous"></script>
     <link
       rel="icon"
       href="./Assets/Images/wz_nobg.png"
       type="image/png"
-      width="50px"
     />
+    <title>Wagner Zoccoli Web Development Front End</title>
+
   </head>
   <body>
+
     <div id="logo"></div>
+    <main>
     <section id="intro">
       <h1>HELLO, WORLD!</h1>
       <p class="introp">
         Eu sou o Wagner, um Desenvolvedor Web...<br />em "desenvolvimento"<br />
-        <sub>(no pun intended xD)</sub>
+        <sup>(no pun intended xD)</sup>
       </p>
     </section>
+    </main>
     <section class="skillscontainer">
       <div class="cards">
         <div>
@@ -71,7 +76,7 @@
         <div id="minilogo"></div>
         <h2>WAGNER ZOCCOLI</h2>
         <br />
-        <sub>Desenvolvedor Web</sub>
+        <sub class="sub">Desenvolvedor Web Front End</sub>
         <br />
         <br />
         <p>
@@ -91,7 +96,7 @@
     </section>
     <section id="portfolio">
       <div class="sec-title">
-        <h2>PORTFOLIO</h2>
+        <h2 class="sectitle">PORTFOLIO</h2>
       </div>
       <div class="buttons">
         <a 
@@ -103,15 +108,28 @@
     </section>
     <section id="contact">
       <div class="sec-title">
-        <h2>CONTATO</h2>
+        <h2 class="sectitle">CONTATO</h2>
       </div>
-      <div class="buttons">
-        <a
-          href="https://api.whatsapp.com/send?phone=5543991609132"
-          target="_blank"
-          ><strong>WhatsApp</strong>
-        </a>
-      </div>
+      <div id="social">
+        <ul>
+          <li><a
+            href="https://www.linkedin.com/in/wagner-zoccoli-front-end-web-developer/"
+            target="_blank"
+          ><i class="fa-brands fa-linkedin-in"></i></li>
+          <li><a
+            href="https://twitter.com/WaGutoxD"
+            target="_blank"
+          ><i class="fa-brands fa-twitter"></i></li>
+          <li><a
+            href="https://www.instagram.com/wagner.zoccoli/"
+            target="_blank"
+          ><i class="fa-brands fa-instagram"></i></li>
+          <li><a
+            href="https://api.whatsapp.com/send?phone=5543998646012&text=Ol%C3%A1%2C%20Wagner!%20Tudo%20bem%3F"
+            target="_blank"
+          ><i class="fa-brands fa-whatsapp"></i></li>
+        </ul>
+      </div>  
       <div id="formcontainer">
         <h3>DEIXE SUA MSG...</h3>
         <br />
@@ -152,8 +170,9 @@
     </section>
     <footer>
       <div id="flogo"></div>
-      <div>Wagner Zoccoli Web Development</div>
-      <div>© 2022</div>
+      <div><p>Wagner Zoccoli Web Development</p></div>
+      <div><p>© 2022</p></div>
     </footer>
+    <script src="/script.js"></script>
   </body>
 </html>
