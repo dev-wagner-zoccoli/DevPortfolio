@@ -475,7 +475,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1080px) {
 
   #intro {
     width: 80%;
@@ -550,4 +550,27 @@ footer {
   .buttons {
     width: 35%;
   }
+}
+
+
+/* ----------------------------- */
+/* links.html - mobile exclusive */
+/* ----------------------------- */
+
+
+#insta-links {
+  margin-top: 20%;
+}
+
+.insta-buttons {
+  height: fit-content;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 4%;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #c2c2c2cc;
+  border-radius: 4px;
+  box-shadow: #f605fa 0px 0px 5px;
 }
