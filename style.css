@@ -261,15 +261,15 @@ ul li:nth-child(1):hover:before {
   box-shadow: 0 0 15px #0073ff;
 }
 
-ul li:nth-child(3):hover:before {
+ul li:nth-child(2):hover:before {
   box-shadow: 0 0 15px #009dff;
 }
 
-ul li:nth-child(5):hover:before {
+ul li:nth-child(3):hover:before {
   box-shadow: 0 0 15px #E1306C;
 }
 
-ul li:nth-child(7):hover:before {
+ul li:nth-child(4):hover:before {
   box-shadow: 0 0 15px #15ff00;
 }
 
@@ -279,19 +279,19 @@ ul li:nth-child(1):hover {
   text-shadow: 0 0 15px #4267B2;
 }
 
-ul li:nth-child(3):hover {
+ul li:nth-child(2):hover {
   color: #009dff;
   box-shadow: 0 0 15px #1DA1F2;
   text-shadow: 0 0 15px #1DA1F2;
 }
 
-ul li:nth-child(5):hover {
+ul li:nth-child(3):hover {
   color: #e23670;
   box-shadow: 0 0 15px #E1306C;
   text-shadow: 0 0 15px #E1306C;
 }
 
-ul li:nth-child(7):hover {
+ul li:nth-child(4):hover {
   color: #15ff00;
   box-shadow: 0 0 15px #15ff00;
   text-shadow: 0 0 15px #15ff00;
