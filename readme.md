@@ -1,7 +1,5 @@
 # Personal Site / Portfolio
 
-===========================
-
 ## July31, 2022
 
 ### The project
